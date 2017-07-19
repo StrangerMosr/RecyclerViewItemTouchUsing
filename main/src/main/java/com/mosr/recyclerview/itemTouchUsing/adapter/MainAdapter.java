@@ -35,6 +35,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
+import com.mosr.recyclerview.itemTouchUsing.R;
 import com.mosr.recyclerview.itemTouchUsing.entity.InvitationInfo;
 import com.mosr.recyclerview.itemTouchUsing.itemtouch.DefaultItemTouchHelper;
 
@@ -319,7 +320,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainContentVie
             if (event.getAction() == MotionEvent.ACTION_UP)
                 setHeight(700, null);
             switch (view.getId()) {
-                case com.mosr.recyclerview.itemTouchUsing.R.id.imb_move:
+                case R.id.imb_move:
                     if (event.getAction() == MotionEvent.ACTION_DOWN)
                         setHeight(400, this);
                     itemTouchHelper.startDrag(this);

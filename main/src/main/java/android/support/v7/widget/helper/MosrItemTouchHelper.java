@@ -15,24 +15,7 @@
  */
 package android.support.v7.widget.helper;
 
-import android.support.v7.widget.RecyclerView;
-
-/**
- * Created in 2016/5/7 21:40.
- *
- * @author Yolanda;
- */
 public class MosrItemTouchHelper extends ItemTouchHelper {
-
-    /**
-     * Creates an ItemTouchHelper that will work with the given Callback.
-     * <p/>
-     * You can attach ItemTouchHelper to a RecyclerView via
-     * {@link #attachToRecyclerView(RecyclerView)}. Upon attaching, it will add an item decoration,
-     * an onItemTouchListener and a Child attach / detach listener to the RecyclerView.
-     *
-     * @param callback The Callback which controls the behavior of this touch helper.
-     */
     public MosrItemTouchHelper(Callback callback) {
         super(callback);
     }
@@ -40,10 +23,12 @@ public class MosrItemTouchHelper extends ItemTouchHelper {
     public Callback getCallback() {
         return mCallback;
     }
-    public float getInitialTouchX(){
+
+    public float getInitialTouchX() {
         return mInitialTouchX;
     }
-    public float getInitialTouchY(){
+
+    public float getInitialTouchY() {
         return mInitialTouchY;
     }
 }

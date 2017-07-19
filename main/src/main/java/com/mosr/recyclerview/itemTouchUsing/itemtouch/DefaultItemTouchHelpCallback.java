@@ -20,11 +20,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
-/**
- * Created in 2016/5/7 21:01.
- *
- * @author Yolanda;
- */
 public class DefaultItemTouchHelpCallback extends ItemTouchHelper.Callback {
 
     /**

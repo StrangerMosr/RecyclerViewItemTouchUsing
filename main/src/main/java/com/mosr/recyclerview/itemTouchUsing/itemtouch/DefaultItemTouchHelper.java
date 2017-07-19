@@ -17,11 +17,6 @@ package com.mosr.recyclerview.itemTouchUsing.itemtouch;
 
 import android.support.v7.widget.helper.MosrItemTouchHelper;
 
-/**
- * Created in 2016/5/7 21:35.
- *
- * @author Yolanda;
- */
 public class DefaultItemTouchHelper extends MosrItemTouchHelper {
 
     private DefaultItemTouchHelpCallback itemTouchHelpCallback;
